@@ -1,0 +1,57 @@
+
+body {
+    background-color: rgb(100, 212, 156);
+    text-align: center;
+}
+header {
+    display: block;
+    background-color: rgb(74 153 101);
+    padding: 30px;
+    background-image: url(Forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    padding: 20px;
+    font-size: 3rem;
+}
+nav {
+    display: inline-block;
+    background-color: rgba(100, 212, 156, 0.75);
+    padding: 25px;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgba(32, 136, 79, 0.75);
+    color: black;
+    font-size: 1.5rem;
+}
+a:hover {
+    background-color: rgb(20, 85, 49);
+    color:antiquewhite;
+    transition: 0.5s;
+}
+ul {
+    padding: 15px;
+    margin: 0px;
+}
+ul li {
+    list-style-type: none;
+
+}
+li {
+    display: inline;
+}
+article {
+    display: block;
+    background-color: rgb(74 153 101);
+    padding: 30px;
+    margin-top: 20px;
+    background-image: url(Forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+}
